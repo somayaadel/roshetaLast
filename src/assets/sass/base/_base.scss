@@ -1,0 +1,26 @@
+* {
+    text-decoration: none !important;
+    list-style: none;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+html {
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    background-color: unset !important;
+
+
+}
+
+body {
+    background-color: rgb(236, 240, 243);
+    font-family: 'Lato', sans-serif !important;
+    background-color: #ecf0f3;
+    @include respond(big-desktop) {
+        font-size: 1rem;
+    }
+}

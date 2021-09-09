@@ -1,0 +1,258 @@
+// /* Login Section */
+
+// .login {
+//     padding-top: 5rem;
+    
+//     &-logo {
+//         margin-top: 5rem;
+//         text-align: center;
+//     }
+//     &-logo img {
+//         width: 17rem;
+//     }
+//     &-email-icon {
+//         position: absolute;
+//         top: 12;
+//     }
+//     &-email-icon,
+//     &-password-icon {
+//         left: 7rem;
+//         transition: all 1s;
+//         display: block;
+//         color: white;
+//         font-size: 1.5rem;
+//     }
+//     &-icon-position {
+//         position: absolute;
+//         width: 2.2rem;
+//         bottom: 0.6rem;
+//         height: 1.5rem;
+//         top: 3px;
+//     }
+//     &-form-control {
+//         width: 60%;
+//         padding: 1px 1rem 0rem 4rem;
+//         margin: auto;
+//         border: none;
+//         border-radius: 0;
+//     }
+//     @include respond(big-desktop) {
+//         font-size: 1rem;
+//         position: relative;
+//         top: 20rem;
+//         &-logo img {
+//             width: 30rem;
+//         }
+//         &-email-icon,
+//         &-password-icon {
+//             left: 22.5rem !important;
+//         }
+//         &-form-control {
+//             width: 40%;
+//             font-size: 1.6rem;
+//         }
+//         &-icon-position {
+//             top: 10px;
+//         }
+//     }
+//     @include respond(tab-land) {
+//         padding: 2rem 0;
+//         &-form-control {
+//             width: 50%;
+//         }
+//         &-password-icon,
+//         &-email-icon {
+//             left: 4.5rem;
+//         }
+//         /* all lead */
+//         .container-res {
+//             width: fit-content !important;
+//         }
+//     }
+//     @include respond(tab-port) {
+//         &-password-icon,
+//         &-email-icon {
+//             left: 4.5rem;
+//         }
+//         &-form-control:focus+span &-email-icon,
+//         &-form-control:focus+span &-password-icon {
+//             left: 4.6rem;
+//         }
+//         .mr-5 {
+//             margin-right: 0 !important;
+//         }
+//         & {
+//             padding: 1rem 0;
+//         }
+//         .heading-primary {
+//             letter-spacing: 1rem;
+//         }
+//         .mb-110 {
+//             margin-bottom: 4rem;
+//         }
+//     }
+//     @include respond(phone) {
+//         &-email-icon,
+//         &-password-icon {
+//             left: 5.6rem  !important;
+//         }
+//         &-form-control:focus+span &-email-icon,
+//         &-form-control:focus+span &-password-icon {
+//             left: 6.6rem;
+//         }
+//         &-form-control{
+//             padding: 1px 1rem 0rem 2.8rem;
+
+//         }
+
+//     }
+// }
+
+// .login-form-control:focus+span.login-email-icon,
+// .login-form-control:focus+span.login-password-icon {
+//     left: 7.5rem;
+//     color: rgb(176, 125, 18) !important;
+//     @include respond(big-desktop) {
+//         left: 23rem !important;
+//     }
+//     @include respond(tab-land) {
+//         left: 5rem;
+//     }
+// }
+
+
+.login{
+    &-logo{
+        margin-left: 73%;
+        margin-top: 50%;
+    }
+            &-form{
+            
+                background-color: #fffdfd !important;
+                margin-top: 9%;
+                margin-left: 111%;
+                border: none;
+                width: 80%;
+                height: 45px;
+                padding: 4%;
+                font-size: 14px;
+            
+            }
+            &-password{
+                margin-top: 5% !important
+            }
+        &-button{
+            background-color: white;
+            color: black;
+        
+            margin-top: 9%;
+        
+            text-align: center;
+            font-size: 16px;
+            margin-left: 131%;
+            width: 33%;
+        }
+        &-error{
+            color:#9846c5;
+            float: right;
+            font-size:12px;
+           margin-top: 2%;
+           margin-bottom: -2%;
+        }
+        &-error-div{
+            margin-left: 35%;
+        }
+        &-password-error{
+            margin-left: 41%;
+        }
+        &-footer{
+            margin-top: 27%;
+            float: right;
+        }
+
+       @include respond(big-desktop) {
+        font-size: 1rem;
+        position: relative;
+        top: 20rem;
+        &-logo img {
+            width: 30rem;
+        }
+        &-email-icon,
+        &-password-icon {
+            left: 22.5rem !important;
+        }
+        &-form{
+            width: 40%;
+            font-size: 1.6rem;
+        }
+        &-icon-position {
+            top: 10px;
+        }
+    }
+    @include respond(tab-land) {
+        padding: 2rem 0;
+        &-form-control {
+            width: 50%;
+        }
+        &-password-icon,
+        &-email-icon {
+            left: 4.5rem;
+        }
+        /* all lead */
+        .container-res {
+            width: fit-content !important;
+        }
+    }
+    @include respond(tab-port) {
+        &-password-icon,
+        &-email-icon {
+            left: 4.5rem;
+        }
+        &-form-control:focus+span &-email-icon,
+        &-form-control:focus+span &-password-icon {
+            left: 4.6rem;
+        }
+        .mr-5 {
+            margin-right: 0 !important;
+        }
+        & {
+            padding: 1rem 0;
+        }
+        .heading-primary {
+            letter-spacing: 1rem;
+        }
+        .mb-110 {
+            margin-bottom: 4rem;
+        }
+    }
+    @include respond(phone) {
+        
+        &-form{
+            margin-left: 11%;
+
+        }
+        &-logo  {
+           width: 150px;
+            margin-left: 17% !important;
+            margin-top: 51%;
+        }
+
+        &-button{
+            margin-left:unset
+        }
+        &-error-div {
+            margin-left: 12%;
+        }
+        &-error {
+            float:none
+        }
+
+        &-password-error {
+            margin-left: 11%;
+        }
+
+    }
+}
+.form-control.is-invalid{
+    // border: 2px solid #9646c5 !important;
+}

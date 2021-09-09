@@ -1,0 +1,26 @@
+$color-pack: false;
+
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import '~bootstrap/dist/css/bootstrap.css';
+@import "vue-select/src/scss/vue-select.scss";
+@import '~vuetify/src/styles/main.sass';
+@import '~vue-multiselect/dist/vue-multiselect.min.css';
+// <style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
+
+
+@import './helpers/mixins';
+@import './helpers/variables';
+@import './pages/global';
+// components
+@import './components/login';
+@import './components/navigations';
+@import './components/dashboard';
+
+
+
+
+// base
+@import './base/animation';
+@import './base/base';
+@import './base/typography';
+@import './base/utilities';

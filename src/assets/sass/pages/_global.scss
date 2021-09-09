@@ -1,0 +1,35 @@
+body.login-layout {
+    // background-image: url(../image/login.jpg);
+    background-color: #ecf0f3;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+body.home-layout {
+    background-color: #ecf0f3;
+}
+
+// vue select customization
+.vueSelect_is-invalid .vs__search::placeholder,
+.vueSelect_is-invalid .vs__dropdown-toggle,
+.vueSelect_is-invalid .vs__dropdown-menu {
+    border: 1px solid #dc3545;
+}
+
+.vueSelect_is-valid .vs__search::placeholder,
+.vueSelect_is-valid .vs__dropdown-toggle,
+.vueSelect_is-valid .vs__dropdown-menu {
+    border: 1px solid #28a745;
+}
+
+.role {
+    padding: 2rem 1rem;
+    border-bottom: 1px solid $semi-purple;
+    margin-bottom: 2rem;
+}
+
+
+
+[class^="col-"] {
+    padding: 0 0;
+}

@@ -1,0 +1,73 @@
+.dashboard{
+    position: absolute;
+    top: 5.5rem;
+    left: 19rem;
+   width: 75vw;
+
+&__header{
+    padding: 1rem;
+    background-color: #e2e6ef;
+    border-radius: 5px;}
+&__Form{
+    
+    background-color: white;
+    margin-top: 1rem;
+    border-radius: 2px;
+    padding: 1.2rem;
+    &Inputs{
+        width: 27vw;
+    }
+    }
+    &__searchbox{
+        border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: .7rem;
+    }
+    &__addIcon{
+        color: $purple;
+        padding-top: 7px;
+        &Place{
+            position: absolute;
+            right: -23px;
+            font-size: 1.2rem;
+        }
+
+    }
+}
+.subheader{
+    background-color: #ffffff;
+    margin-bottom: 1rem;
+    height: 45px;
+   
+
+}
+.subheader_title{
+    display: inline-block;
+padding: 10px;
+    color: #80c7e4;
+    font-weight: bold
+}
+.subheader_button{
+    float: right;
+    background-color: #80c7e4;
+    color: white;
+    margin: 3px;
+}
+.table i {
+    color:  #80c7e4 !important;
+    cursor: pointer;
+    margin-right: 10px
+}
+.modal-dialog
+{
+    margin-top: 100px
+}
+.filters{
+    height: 179px;
+}
+.control.has-icons-left .input, .control.has-icons-left .taginput .taginput-container.is-focusable, .taginput .control.has-icons-left .taginput-container.is-focusable, .control.has-icons-left .select select{
+    display:inline-block; 
+    
+    margin-top: 6px;
+    height:35px
+}
